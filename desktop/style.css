@@ -3,10 +3,40 @@ body {
 }
 
 .screen {
+    box-shadow: 0 0 100px rgba(0,0,0,.7);
+    height: 600px;
+    width: 800px;
+}
+
+.glass {
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.clear {
+    backdrop-filter: blur( 1px );
+}
+
+.frosted {
+    backdrop-filter: blur(5px);
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.folder {
+
 }
