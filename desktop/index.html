@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/crt.scss">
+    <script type="text/javascript" src="javascript/loader.js"></script>
 </head>
+
 <body>
-<h1>Hello World</h1>
-<p>I am a new page designed to become a PC layout.</p>
-<div class="screen">
-    <div class="navbar glass frosted">
-        <p>Navbar</p>
+    <h1>Hello World</h1>
+    <p>I am a new page designed to become a PC layout.</p>
+    <input type="checkbox" id="switch" checked>
+    <label for="switch" class="switch-label">Turn </label>
+    <div class="container screen">
+        <div id="loader" class="glass clear">
+            <img src="images/smile.jpeg">
+            <p>Starting Up...</p>
+            <div class="progress-bar"></div>
+        </div>
+        <div id="desktop">
+            <div class="navbar glass frosted">
+                <ul>
+                    <li>Image</li>
+                    <li><b>Dynamic</b></li>
+                    <li>Dynamic2</li>
+                </ul>
+            </div>
+            <p>desktop screen</p>
+            <div class="folder">
+
+            </div>
+        </div>
     </div>
-    <div class="desktop glass clear">
-        <p>desktop screen</p>
-    </div>
-</div>
+    <p>outside of screen</p>
 </body>
+
 </html>
